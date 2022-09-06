@@ -1,0 +1,24 @@
+.heading{
+    text-align: center;
+    font-family: Consolas;
+}
+
+.col-container{
+    display: table;
+    width: 100%;
+}
+
+.col{
+    display: table-cell;
+    text-align: center;
+    float: left;
+    width: 50%;
+    background-color:lightsteelblue;
+    font-family: Consolas;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
