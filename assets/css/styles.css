@@ -1,23 +1,24 @@
-.heading{
+.heading {
     text-align: center;
-    font-family: Consolas;
+    font-family: Consolas, Menlo, Monaco, Lucida Console;
 }
 
-.col-container{
-    display: table;
+.col-container {
+    display: flex;
     width: 100%;
+    gap: 1rem;
 }
 
-.col{
-    display: table-cell;
+.col {
+    flex: 1;
     text-align: center;
     float: left;
     width: 50%;
-    background-color:lightsteelblue;
-    font-family: Consolas;
+    
+    font-family: Consolas, Menlo, Monaco, Lucida Console;
 }
 
-.row::after{
+.row::after {
     content: "";
     display: table;
     clear: both;
